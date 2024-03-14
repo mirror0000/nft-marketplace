@@ -21,8 +21,7 @@ const NFTDetail = () => {
   const [colors, setColors] = useState([]);
 
   const [isLike, setIsLike] = useState(false);
-  
-  
+
 
   const like = () => setIsLike(!isLike);
 
@@ -40,10 +39,7 @@ const NFTDetail = () => {
 
   const isARSupport = useARStatus(state.item.src);
 
-  
 
-  //!! aciklama karakter sayisi sinirlanmali.
-  //!! scroll sorununa cozum bulunmali.
 
   return (
     <div>
@@ -105,7 +101,6 @@ const NFTDetail = () => {
             </div>
           }
         />
-        
       </div>
 
     </div>

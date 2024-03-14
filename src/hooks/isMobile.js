@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 
-export const getWindowDim = () => {  
+export const getWindowDim = () => {
     return {
       width:window.innerWidth,
       height:window.innerHeight,
